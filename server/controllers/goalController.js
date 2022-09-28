@@ -24,7 +24,6 @@ const setGoal = asyncHandler(async (req, res) => {
 // @routes put/api/goals:id
 // @access Private
 
-
 const upDateGoals = asyncHandler(async (req, res) => {
   res.status(200).json({ message: `Update Goal ${req.params.id}` });
 });
